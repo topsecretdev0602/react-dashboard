@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div className="iconContainer">
                     <Settings/>
                 </div>
-                <img src="https://avatarfiles.alphacoders.com/693/thumb-1920-69306.jpg" alt="" className="avatar" />
+                <img src="https://static.simpsonswiki.com/images/b/bd/Homer_Simpson.png" alt="" className="avatar" />
             </div>
         </div>
     </div>

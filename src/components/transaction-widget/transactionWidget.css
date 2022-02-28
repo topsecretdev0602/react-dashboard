@@ -1,0 +1,60 @@
+.transactionWidget{
+    flex: 3;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+}
+  
+.transactionTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.transactionHeader{
+    text-align: left;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.userImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.transactionDate, .transactionAmount{
+    font-weight: 300;
+}
+
+.transactionButton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.transactionButton.Approved{
+    background-color: white;
+    color: green;
+}
+
+.transactionButton.Declined{
+    background-color: white;
+    color: red;
+}
+
+.transactionButton.Pending{
+    background-color: white;
+    color: blue;
+}

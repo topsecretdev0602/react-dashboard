@@ -1,0 +1,65 @@
+.userWidget{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.userList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.userListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.user{
+    display:flex;
+    flex-direction: row;
+}
+
+.userImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.userName{
+    font-weight: 600;
+}
+
+.userRole{
+    font-weight: 300;
+}
+
+.userShow{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.userShowIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}
