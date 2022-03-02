@@ -20,7 +20,7 @@ export default function Users() {
     {
       field: "user",
       headerName: "User",
-      width: 200,
+      flex: 1,
       renderCell: (params) => {
       return (
         <div className="user">
@@ -30,21 +30,21 @@ export default function Users() {
       );
       },
     },
-    { field: "email", headerName: "Email", width: 200 },
+    { field: "email", headerName: "Email", flex: 2 },
     {
       field: "status",
       headerName: "Status",
-      width: 120,
+      flex: 1,
     },
     {
       field: "transaction",
       headerName: "Transaction Volume",
-      width: 160,
+      flex: 1,
     },
     {
       field: "action",
       headerName: "Action",
-      width: 150,
+      flex: 1,
       renderCell: (params) => {
       return (
         <>
