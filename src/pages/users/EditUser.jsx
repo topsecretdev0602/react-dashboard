@@ -1,5 +1,6 @@
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PersonAdd, PhoneAndroid } from '@material-ui/icons'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./editUser.css"
 
 export default function EditUser() {
@@ -7,7 +8,9 @@ export default function EditUser() {
     <div className="editUser">
       <div className="titleBar">
         <h2>Edit User</h2>
+        <Link to={"/addUser/"}>
         <button className="createUser">Create</button>
+        </Link>
       </div>
       <div className="userContainer">
       <div className="userProfile">
