@@ -1,0 +1,150 @@
+.editUser{
+    flex: 4;
+    padding: 20px;
+}
+
+.titleBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createUser{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userProfile{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);  
+}
+
+.userAvatar{
+    display: flex;
+    align-items: center;
+}
+
+.userInfoImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfoTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userName{
+    font-weight: 600;
+}
+
+.userRole{
+    font-weight: 300;
+}
+
+.userDetails{
+    margin-top: 20px;
+}
+
+.userDetailsTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+
+.userDetail{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.userDetailIcon{
+    font-size: 16px !important;
+}
+
+.userDetailTitle{
+    margin-left: 10px;
+}
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userUpdateImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.userUpdateIcon{
+    cursor: pointer;
+}
+
+.userUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}

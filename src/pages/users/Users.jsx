@@ -23,8 +23,8 @@ export default function Users() {
       flex: 1,
       renderCell: (params) => {
       return (
-        <div className="user">
-        <img className="userImage" src={params.row.avatar} alt="" />
+        <div className="userImageContainer">
+          <img className="userImage" src={params.row.avatar} alt="" />
           {params.row.username}
         </div>
       );
