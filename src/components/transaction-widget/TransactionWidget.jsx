@@ -19,7 +19,7 @@ export default function TransactionWidget() {
         </tr>
         <tr className="transactionRow">
           <td className="user">
-            <img src="https://static.simpsonswiki.com/images/b/bd/Homer_Simpson.png" alt="" className="userImage"/>
+            <img src="https://avatarfiles.alphacoders.com/693/thumb-1920-69306.jpg" alt="" className="userImage"/>
             <span className="userName">Homer Simpson</span>
           </td>
           <td className="transactionDate">2 Jun 2021</td>

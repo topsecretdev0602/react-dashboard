@@ -1,6 +1,8 @@
-import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, Home, Loyalty, MailOutline, PermIdentity, Report, Storefront, TrendingUp, WorkOutline } from '@material-ui/icons'
 import React from 'react'
 import "./sidebar.css"
+
+import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, Home, Loyalty, MailOutline, PermIdentity, Report, Storefront, TrendingUp, WorkOutline } from '@material-ui/icons'
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -9,10 +11,12 @@ export default function Sidebar() {
             <div className="menu">
                 <h4 className="title">Dashboard</h4>
                 <ul className="list">
+                    <Link to="/" className="link">
                     <li className="listItem active">
                         <Home/>
                         Home
                     </li>
+                    </Link>
                     <li className="listItem">
                         <TrendingUp/>
                         Analytics
@@ -26,10 +30,12 @@ export default function Sidebar() {
             <div className="menu">
                 <h4 className="title">Shortcuts</h4>
                 <ul className="list">
+                    <Link to="/users" className="link">
                     <li className="listItem">
                         <PermIdentity/>
                         Users
                     </li>
+                    </Link>
                     <li className="listItem">
                         <Storefront/>
                         Products
