@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Users from "./pages/users/Users";
 import EditUser from "./pages/users/EditUser";
 import AddUser from "./pages/users/AddUser";
+import Products from "./pages/products/Products";
 
 import "./app.css"
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="users" element={<Users/>}/>
           <Route path="user/:userId" element={<EditUser/>}/>
           <Route path="addUser" element={<AddUser/>}/>
+          <Route path="products" element={<Products/>}/>
         </Routes>
       </div>
     </Router>

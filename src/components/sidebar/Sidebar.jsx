@@ -36,10 +36,12 @@ export default function Sidebar() {
                         Users
                     </li>
                     </Link>
+                    <Link to="/Products" className="link">
                     <li className="listItem">
                         <Storefront/>
                         Products
                     </li>
+                    </Link>
                     <li className="listItem">
                         <AttachMoney/>
                         Transactions

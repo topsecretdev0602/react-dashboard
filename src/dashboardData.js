@@ -141,3 +141,78 @@ export const salesData = [
       transaction: "$34.00",
     },
   ];
+
+  export const productData = [
+    {
+      id: 1,
+      name: "Buzz Cola",
+      img:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/BuzzCan.jpg/200px-BuzzCan.jpg",
+      stock: 145,
+      status: "active",
+      price: "$8.00",
+    },
+    {
+      id: 2,
+      name: "Duff Beer",
+      img:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Duff_beer.jpg/100px-Duff_beer.jpg",
+      stock: 112,
+      status: "active",
+      price: "$12.00",
+    },
+    {
+      id: 3,
+      name: "Malibu Stacy",
+      img:
+        "https://m.media-amazon.com/images/I/915J8iG2vZL._SS500_.jpg",
+      stock: 5,
+      status: "active",
+      price: "$15.00",
+    },
+    {
+      id: 4,
+      name: "Squishee",
+      img:
+        "https://i.ebayimg.com/images/g/08sAAOSwh1paA-5G/s-l300.jpg",
+      stock: 79,
+      status: "active",
+      price: "$2.50",
+    },
+    {
+      id: 5,
+      name: "Krusty-Os",
+      img:
+        "https://i.ebayimg.com/images/g/u8oAAOSwGS9fTnt-/s-l400.jpg",
+      stock: 24,
+      status: "active",
+      price: "$3.20",
+    },
+    {
+      id: 6,
+      name: "Moon Pie",
+      img:
+        "https://i.pinimg.com/originals/7b/7c/a0/7b7ca050acb32ccd475f53611b25edb4.jpg",
+      stock: 45,
+      status: "active",
+      price: "$1.20",
+    },
+    {
+      id: 7,
+      name: "Malk",
+      img:
+        "https://ih1.redbubble.net/image.993293004.4359/st,small,507x507-pad,600x600,f8f8f8.jpg",
+      stock: 77,
+      status: "active",
+      price: "$0.50",
+    },
+    {
+      id: 8,
+      name: "Tomacco",
+      img:
+        "https://static.simpsonswiki.com/images/thumb/d/db/Tomacco_Juice.png/250px-Tomacco_Juice.png",
+      stock: 14,
+      status: "active",
+      price: "$7.00",
+    },
+  ];
