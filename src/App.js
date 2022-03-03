@@ -7,6 +7,7 @@ import EditUser from "./pages/users/EditUser";
 import AddUser from "./pages/users/AddUser";
 import Products from "./pages/products/Products";
 import EditProduct from "./pages/products/EditProduct";
+import AddProduct from "./pages/products/AddProduct";
 
 import "./app.css"
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="addUser" element={<AddUser/>}/>
           <Route path="products" element={<Products/>}/>
           <Route path="product/:productId" element={<EditProduct/>}/>
+          <Route path="addProduct" element={<AddProduct/>}/>
         </Routes>
       </div>
     </Router>
